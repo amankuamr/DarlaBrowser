@@ -7,16 +7,16 @@ import { motion } from "framer-motion"
 const promotions = [
   {
     id: 1,
-    tag: "Limited Time",
-    title: "Weekend Warrior Bonus",
-    description: "Double your deposits every weekend. Get up to 100% match bonus Friday-Sunday.",
+    tag: "New Feature",
+    title: "Enhanced Privacy Mode",
+    description: "Experience ultimate privacy with our new enhanced mode. Block all trackers and ads automatically.",
     image: "/images/crate1.png"
   },
   {
     id: 2,
-    tag: "VIP Exclusive",
-    title: "High Roller Tournament",
-    description: "Monthly tournament with $100,000 prize pool. Entry: $1,000. Winner takes 50%.",
+    tag: "Premium Feature",
+    title: "Advanced Extensions Hub",
+    description: "Access thousands of premium extensions and tools. Customize your browsing experience like never before.",
     image: "/images/crate2.png"
   }
 ]
@@ -38,7 +38,7 @@ export default function PromotionsSection() {
           <div className="p-3 rounded-2xl glass-effect glow-gold">
             <Gift className="h-10 w-10 text-yellow-400" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-black text-white text-glow">Special Promotions</h2>
+          <h2 className="text-4xl md:text-5xl font-black text-white text-glow">Latest Features</h2>
           <div className="p-3 rounded-2xl glass-effect glow-gold">
             <Gift className="h-10 w-10 text-yellow-400" />
           </div>

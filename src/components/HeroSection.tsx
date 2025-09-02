@@ -240,7 +240,7 @@ export default function HeroSection() {
                 {/* Background Image */}
                 <img
                   src="/images/pp1.png"
-                  alt="Casino Background"
+                  alt="Browser Background"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 

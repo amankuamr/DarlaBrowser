@@ -26,7 +26,7 @@ export default function Navbar() {
                 <Sparkles className="absolute -top-1 -right-1 h-3 w-3 lg:h-4 lg:w-4 text-yellow-300 animate-pulse" />
               </div>
               <span className="text-lg lg:text-2xl font-bold gold-gradient text-glow whitespace-nowrap">
-                CasinoRoyal
+                Darla Browser
               </span>
             </motion.div>
 
@@ -40,7 +40,7 @@ export default function Navbar() {
                 <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                 <input
                   type="text"
-                  placeholder="Search games..."
+                  placeholder="Search features..."
                   className="w-full pl-12 pr-6 py-3 premium-input text-white placeholder-gray-400 text-base"
                 />
               </motion.div>
@@ -48,7 +48,7 @@ export default function Navbar() {
 
             {/* Navigation Options - Responsive */}
             <div className="hidden lg:flex items-center space-x-4 xl:space-x-6">
-              {["Games", "Sports", "Live", "Promos"].map((item, index) => (
+              {["Features", "Extensions", "Security", "Download"].map((item, index) => (
                 <motion.a
                   key={item}
                   href="#"
@@ -101,7 +101,7 @@ export default function Navbar() {
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
             <input
               type="text"
-              placeholder="Search games, slots, poker..."
+              placeholder="Search features, extensions, tools..."
               className="w-full pl-12 pr-6 py-3 premium-input text-white placeholder-gray-400 text-base"
             />
           </motion.div>

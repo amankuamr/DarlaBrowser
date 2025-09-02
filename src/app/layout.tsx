@@ -5,8 +5,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CasinoRoyal - Premium Online Casino & Sports Betting",
-  description: "Experience the thrill of premium online gaming with CasinoRoyal. Play slots, table games, live casino, and sports betting with amazing bonuses and jackpots.",
+  title: "Darla Browser - Premium Web Browser Experience",
+  description: "Experience the next generation of web browsing with Darla Browser. Fast, secure, and feature-rich browsing with advanced capabilities and premium design.",
 }
 
 export default function RootLayout({
